@@ -1,0 +1,45 @@
+body {
+
+    background-image: url('../images/watercolor.png');
+    background-color: rgb(17, 24, 129, .8);
+    background-blend-mode: exclusion, color;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Homemade Apple';
+    font-weight: 900;
+    font: bold;
+}
+
+h1 {
+    color: rgb(197, 124, 29, .4);
+    font-weight: 1300;
+}
+
+h1>p {
+    font-style: italic;
+    color: burlywood;
+    font-size: 75%;
+}
+
+/* dit hoeft er niet bij want dat inherit ie blijkbaar gewoon...
+td:nth-child(odd) {
+    text-align: right;
+}
+*/
+
+th:nth-child(even) {
+    text-align: left;
+}
+
+th:nth-child(odd) {
+    text-align: right;
+}
+
+
+a:visited {
+    color: deeppink;
+}
+
+a:hover {
+    color: chartreuse;
+}
